@@ -327,7 +327,8 @@ body {
 	gap: 10px;
 	overflow: hidden;
     position: relative;
-	-webkit-overflow-scrolling: touch; /* инерция на iOS */
+	scroll-snap-align: start;
+    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
 	@media (max-width: 900px) {
 		.deals__wrapper {
@@ -426,7 +427,8 @@ body {
     max-width: 1030px; 
     margin: 0 auto;
     position: relative;
-	-webkit-overflow-scrolling: touch; /* инерция на iOS */
+	scroll-snap-align: start;
+    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
 	@media (max-width: 1070px) {
 		.reviews__wrapper {

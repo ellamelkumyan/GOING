@@ -327,8 +327,6 @@ body {
 	gap: 10px;
 	overflow: hidden;
     position: relative;
-	scroll-snap-align: start;
-    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
 	@media (max-width: 900px) {
 		.deals__wrapper {
@@ -376,6 +374,8 @@ body {
     padding: 0 10px; 
 	flex: 0 0 auto;
     transition: transform 0.5s ease;
+	scroll-snap-align: start;
+    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
 
 .deals__wrapper > .deals__item {
@@ -427,8 +427,6 @@ body {
     max-width: 1030px; 
     margin: 0 auto;
     position: relative;
-	scroll-snap-align: start;
-    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
 	@media (max-width: 1070px) {
 		.reviews__wrapper {
@@ -446,6 +444,8 @@ body {
 	max-width: 326px;
 	background-color: rgb(255, 254, 240);
 	flex: 0 0 auto;
+	scroll-snap-align: start;
+    scroll-snap-stop: always; /* принудительно останавливаться на каждом слайде */
 }
   
 .reviews__content {
